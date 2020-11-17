@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// menggunakan function App
 function App() {
   let nama = "Zulfikharali Muzakir";
   let no_absen = 35;
@@ -17,6 +18,7 @@ function App() {
   );
 }
 
+// Menggunakan variabel
 const AppVar = () => {
   let nama = "Zulfikharali Muzakir";
   let no_absen = 35;
@@ -33,6 +35,7 @@ const AppVar = () => {
   );
 };
 
+// Menggunakan class
 class AppClass extends React.Component {
   constructor(props) {
     super(props);
